@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@tailwind utilities;
+/* Jungle theme base */
+body {
+  @apply bg-gradient-to-br from-green-900 via-green-800 to-green-900 text-white min-h-screen;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Jungle title font */
+.jungle-title {
+  font-family: "Luckiest Guy", cursive;
+  letter-spacing: 1px;
+}
